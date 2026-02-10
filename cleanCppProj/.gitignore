@@ -1,4 +1,12 @@
 .venv/
+
+#Conan
 Conan/
+
+#Build
 build/
+
+#Cmake
 CMakeUserPresets.json
+/CMakeFiles
+CMakeCache.txt
