@@ -19,7 +19,7 @@ This project currently contains a simple `main.cpp` and does **not include tests
 1. (Optional) Create a Python virtual environment:
 ```bash
 python3 -m venv .venv
-source .venv/bin/activate
+source .venv/bin/activate 
 ```
 
 2.  Install Python dependencies (if you have a requirements.txt):
