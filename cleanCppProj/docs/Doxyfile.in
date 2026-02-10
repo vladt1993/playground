@@ -1,0 +1,15 @@
+PROJECT_NAME           = "@PROJECT_NAME@"
+PROJECT_VERSION        = "@PROJECT_VERSION@"
+
+INPUT                  = @PROJECT_SOURCE_DIR@/src \
+                         @PROJECT_SOURCE_DIR@/docs
+RECURSIVE              = YES
+
+USE_MDFILE_AS_MAINPAGE = docs/README.md
+
+OUTPUT_DIRECTORY       = @CMAKE_CURRENT_BINARY_DIR@
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+
+EXTRACT_ALL            = YES
+QUIET                  = YES
