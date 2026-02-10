@@ -31,10 +31,10 @@ pip install -r requirements.txt
 3. Install Conan dependencies:
 ```bash
 # Debug
-conan install . -of Debug --build=missing -s build_type=Debug
+conan install . -of Conan/Debug --build=missing -s build_type=Debug
 
 # Release
-conan install . -of Release --build=missing -s build_type=Release
+conan install . -of Conan/Release --build=missing -s build_type=Release
 ```
 ---
 
