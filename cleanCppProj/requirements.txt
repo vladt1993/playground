@@ -1,1 +1,8 @@
+# Core tools
 conan>=2,<3
+
+# PlantUML support plugin
+mkdocs_puml>=2.1.0
+
+# Draw.io embedding plugin
+mkdocs-drawio>=1.0.0

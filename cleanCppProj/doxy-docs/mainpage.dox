@@ -8,12 +8,12 @@
  * ## Project Structure
  * - `src/`   : core source code
  * - `tests/` : unit tests
- * - `docs/`  : documentation
+ * - `doxy-docs/`  : documentation
  *
  * ## Build Instructions
  * ```bash
  * cmake -S . -B build -DBUILD_DOCS=ON
- * cmake --build build --target docs
+ * cmake --build build --target doxy-docs
  * ```
  *
  * ## Usage

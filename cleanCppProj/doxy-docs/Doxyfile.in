@@ -2,10 +2,10 @@ PROJECT_NAME           = "@PROJECT_NAME@"
 PROJECT_VERSION        = "@PROJECT_VERSION@"
 
 INPUT                  = @PROJECT_SOURCE_DIR@/src \
-                         @PROJECT_SOURCE_DIR@/docs
+                         @PROJECT_SOURCE_DIR@/doxy-docs
 RECURSIVE              = YES
 
-USE_MDFILE_AS_MAINPAGE = docs/README.md
+USE_MDFILE_AS_MAINPAGE = doxy-docs/README.md
 
 OUTPUT_DIRECTORY       = @CMAKE_CURRENT_BINARY_DIR@
 GENERATE_HTML          = YES

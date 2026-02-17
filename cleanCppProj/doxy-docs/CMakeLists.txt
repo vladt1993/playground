@@ -5,7 +5,7 @@ set(DOXYFILE_OUT ${CMAKE_CURRENT_BINARY_DIR}/Doxyfile)
 
 configure_file(${DOXYFILE_IN} ${DOXYFILE_OUT} @ONLY)
 
-add_custom_target(docs
+add_custom_target(doxy-docs
     COMMAND ${DOXYGEN_EXECUTABLE} ${DOXYFILE_OUT}
     WORKING_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}
     COMMENT "Generating API documentation with Doxygen"

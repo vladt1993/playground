@@ -1,0 +1,26 @@
+# mkdocs.yml - CleanCppProj Documentation
+
+site_name: CleanCppProj Docs
+site_description: Documentation for the CleanCppProj project
+site_author: Your Name
+
+theme:
+  name: readthedocs
+  highlightjs: true
+  hljs_languages:
+    - yaml
+    - rust
+    
+# Navigation (matches folder structure)
+nav:
+  - Home: index.md
+  - Tutorials:
+      - Tutorials: tutorials/tutorials.md
+  - API:
+      - Classes: apis/apis.md
+
+plugins:
+  - search
+  - plantuml:
+      puml_url: https://www.plantuml.com/plantuml/
+  - drawio          # from mkdocs-drawio
