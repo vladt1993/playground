@@ -5,7 +5,7 @@ INPUT                  = @PROJECT_SOURCE_DIR@/src \
                          @PROJECT_SOURCE_DIR@/doxy-docs
 RECURSIVE              = YES
 
-USE_MDFILE_AS_MAINPAGE = doxy-docs/README.md
+USE_MDFILE_AS_MAINPAGE = index.md
 
 OUTPUT_DIRECTORY       = @CMAKE_CURRENT_BINARY_DIR@
 GENERATE_HTML          = YES

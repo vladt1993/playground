@@ -6,7 +6,6 @@ project(cleanCppProj VERSION 0.1 LANGUAGES CXX)
 # -----------------------------
 option(BUILD_TESTS "Build tests" ON)
 option(BUILD_DOXY_DOCS "Build doxygen documentation" OFF)
-option(BUILD_MKDOCS "Build MkDocs documentation" OFF)
 
 # -----------------------------
 # Source directories
