@@ -1,0 +1,31 @@
+[project]
+name = "pyproj"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Vlad Taller",email = "vladislav.taller@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy (==1.26.*)"
+]
+
+[tool.poetry]
+packages = [{include = "pyproj", from = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+dev = [
+    "pytest (>=9.0.2,<10.0.0)",
+    "black (>=26.1.0,<27.0.0)",
+    "isort (>=8.0.0,<9.0.0)",
+    "mypy (>=1.19.1,<2.0.0)"
+]
+
+[virtualenvs]
+create = true          # default – Poetry will make a venv for each project
+in-project = false    # optional – if true, the venv lives in .venv/ inside the project
